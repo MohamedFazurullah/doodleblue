@@ -1,0 +1,47 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/checkbox": "^0.5.7",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "expo": "^41.0.1",
+    "expo-splash-screen": "~0.10.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-updates": "~0.5.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "^0.64.1",
+    "react-native-call-detection": "^1.9.0",
+    "react-native-contacts": "^7.0.0",
+    "react-native-dialog": "^8.0.1",
+    "react-native-elements": "^3.4.1",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-invoke-app": "^1.0.6",
+    "react-native-paper": "^4.8.1",
+    "react-native-popup-dialog": "^0.18.3",
+    "react-native-reanimated": "~2.1.0",
+    "react-native-safe-area": "^0.5.1",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "~3.0.0",
+    "react-native-unimodules": "~0.13.3",
+    "react-native-web": "^0.15.7",
+    "react-navigation": "^4.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "babel-jest": "~25.2.6",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
